@@ -21,7 +21,7 @@ For the sake of clarity and organization, the queries within this repository hav
 
 ## MITRE ATT&CK
 
-| Mitre Tactic          | ID                                             |
+| MITRE Enterprise Tactic          | ID                                             |
 |-----------------------|------------------------------------------------|
 | Reconnaissance        | [TA0043](https://attack.mitre.org/tactics/TA0043/) |
 | Resource Development  | [TA0042](https://attack.mitre.org/tactics/TA0042/) |
