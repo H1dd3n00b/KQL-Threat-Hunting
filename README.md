@@ -30,7 +30,7 @@ For the sake of clarity and organization, the queries within this repository hav
 | Persistence           | [TA0003](https://attack.mitre.org/tactics/TA0003/) |
 | Privilege Escalation  | [TA0004](https://attack.mitre.org/tactics/TA0004/) |
 | Defense Evasion       | [TA0005](https://attack.mitre.org/tactics/TA0005/) |
-| Credential Access     | [TA0006](https://attack.mitre.org/tactics/TA0006/) |
+| [Credential Access](./Collection/)     | [TA0006](https://attack.mitre.org/tactics/TA0006/) |
 | Discovery             | [TA0007](https://attack.mitre.org/tactics/TA0007/) |
 | Lateral Movement      | [TA0008](https://attack.mitre.org/tactics/TA0008/) |
 | Collection            | [TA0009](https://attack.mitre.org/tactics/TA0009/) |
