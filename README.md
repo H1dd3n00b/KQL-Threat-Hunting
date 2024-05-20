@@ -25,17 +25,17 @@ For the sake of clarity and organization, the queries within this repository hav
 |-----------------------|------------------------------------------------|
 | Reconnaissance        | [TA0043](https://attack.mitre.org/tactics/TA0043/) |
 | Resource Development  | [TA0042](https://attack.mitre.org/tactics/TA0042/) |
-| Initial Access        | [TA0001](https://attack.mitre.org/tactics/TA0001/) |
+| [Initial Access](./Initial%20Access/)        | [TA0001](https://attack.mitre.org/tactics/TA0001/) |
 | Execution             | [TA0002](https://attack.mitre.org/tactics/TA0002/) |
 | Persistence           | [TA0003](https://attack.mitre.org/tactics/TA0003/) |
 | Privilege Escalation  | [TA0004](https://attack.mitre.org/tactics/TA0004/) |
-| Defense Evasion       | [TA0005](https://attack.mitre.org/tactics/TA0005/) |
-| [Credential Access](./Collection/)     | [TA0006](https://attack.mitre.org/tactics/TA0006/) |
-| Discovery             | [TA0007](https://attack.mitre.org/tactics/TA0007/) |
-| Lateral Movement      | [TA0008](https://attack.mitre.org/tactics/TA0008/) |
-| Collection            | [TA0009](https://attack.mitre.org/tactics/TA0009/) |
+| [Defense Evasion](./Defense%20Evasion/)       | [TA0005](https://attack.mitre.org/tactics/TA0005/) |
+| [Credential Access](./Credential%20Access/)     | [TA0006](https://attack.mitre.org/tactics/TA0006/) |
+| [Discovery](./Discovery/)             | [TA0007](https://attack.mitre.org/tactics/TA0007/) |
+| [Lateral Movement](./Lateral%20Movement/)      | [TA0008](https://attack.mitre.org/tactics/TA0008/) |
+| [Collection](./Collection/)            | [TA0009](https://attack.mitre.org/tactics/TA0009/) |
 | Command and Control   | [TA0011](https://attack.mitre.org/tactics/TA0011/) |
 | Exfiltration          | [TA0010](https://attack.mitre.org/tactics/TA0010/) |
-| Impact                | [TA0040](https://attack.mitre.org/tactics/TA0040/) |
+| [Impact](./Impact/)                | [TA0040](https://attack.mitre.org/tactics/TA0040/) |
 
 
