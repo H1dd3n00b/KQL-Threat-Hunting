@@ -9,7 +9,7 @@ It focuses on enabled accounts that have shown significant deviations from their
 ```
 let lookback = 14d;
 let AverageFailedLogonPerUser = IdentityLogonEvents
-| where TimeGenerated > ago(lookback)
+| where TimeGenerated >= ago(lookback)
 | where isnotempty( AccountUpn)
 | where ActionType == "LogonFailed"
 | project TimeGenerated,  AccountUpn = tolower(AccountUpn), ActionType
