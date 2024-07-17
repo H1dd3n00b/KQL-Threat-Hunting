@@ -43,3 +43,5 @@ SigninLogs
 | Version       | Date          | Comments                               |
 | ------------- |---------------| ---------------------------------------|
 | 1.0           | 13/07/2024    | Initial publish                        |
+| 1.1           | 17/07/2024    | Modified to base detection thresholds per user, not a fixed count of 6 or more                        |
+
