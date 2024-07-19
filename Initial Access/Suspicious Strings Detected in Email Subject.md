@@ -10,7 +10,7 @@ EmailEvents
 | where isempty( BulkComplaintLevel)
 | where EmailDirection == "Inbound" and DeliveryAction == "Delivered"
 | where UrlCount > 0 or AttachmentCount > 0
-| where Subject matches regex @"\b[a-z0-9]{30,50}\b"
+| where Subject matches regex @"\b[a-z0-9]{30,}\b"
 | where not( Subject has "report domain:")
 ```
 
