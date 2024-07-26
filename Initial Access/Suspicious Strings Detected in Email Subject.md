@@ -2,7 +2,7 @@
 
 ### Description
 
-This query detects potential phishing emails based on suspicious subject strings. It identifies patterns commonly found in phishing emails, often containing seemingly random alphanumeric sequences ranging from 30 to 50 characters.
+This query detects potential phishing emails based on suspicious subject strings. It identifies patterns commonly found in phishing emails, often containing seemingly random alphanumeric sequences ranging from 30 characters and upwards.
 
 ### Microsoft Defender XDR & Microsoft Sentinel
 ```
