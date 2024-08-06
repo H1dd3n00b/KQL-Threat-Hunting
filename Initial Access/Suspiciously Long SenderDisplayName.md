@@ -1,4 +1,4 @@
-# Suspicious Symbols in SenderDisplayName
+# Suspiciously Long SenderDisplayName
 
 ### Description
 
