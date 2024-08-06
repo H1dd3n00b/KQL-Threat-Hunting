@@ -28,7 +28,7 @@ For the sake of clarity and organization, the queries within this repository hav
 | [Initial Access](./Initial%20Access/)        | [TA0001](https://attack.mitre.org/tactics/TA0001/) |
 | Execution             | [TA0002](https://attack.mitre.org/tactics/TA0002/) |
 | Persistence           | [TA0003](https://attack.mitre.org/tactics/TA0003/) |
-| Privilege Escalation  | [TA0004](https://attack.mitre.org/tactics/TA0004/) |
+| [Privilege Escalation](./Privilege%20Escalation/)  | [TA0004](https://attack.mitre.org/tactics/TA0004/) |
 | [Defense Evasion](./Defense%20Evasion/)       | [TA0005](https://attack.mitre.org/tactics/TA0005/) |
 | [Credential Access](./Credential%20Access/)     | [TA0006](https://attack.mitre.org/tactics/TA0006/) |
 | [Discovery](./Discovery/)             | [TA0007](https://attack.mitre.org/tactics/TA0007/) |
