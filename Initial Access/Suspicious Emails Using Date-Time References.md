@@ -7,7 +7,7 @@ This query identifies patterns in emails with specific subject details: a combin
 ### Microsoft Defender XDR & Microsoft Sentinel
 ```
 EmailEvents
-| where EmailDirection == "Inbound" and DeliveryAction == "Blocked"
+| where EmailDirection == "Inbound" and DeliveryAction == "Delivered"
 | where isempty( BulkComplaintLevel)
 //| where SenderMailFromDomain !in~ ("microsoft.com", "sharepointonline.com") // Please exclude known benign domains, such as microsoft.com, sharepointonline.com etc. on this line
 | where Subject matches regex "(?i)am|pm"
@@ -25,3 +25,4 @@ EmailEvents
 | Version       | Date          | Comments                               |
 | ------------- |---------------| ---------------------------------------|
 | 1.0           | 20/05/2024    | Initial publish                        |
+| 1.1           | 08/08/2024    | Modified DeliveryAction to "Delivered"                        |
