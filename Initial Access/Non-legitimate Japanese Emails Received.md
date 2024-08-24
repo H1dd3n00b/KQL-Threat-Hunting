@@ -11,7 +11,7 @@ EmailEvents
 | where EmailDirection == "Inbound" and DeliveryAction == "Delivered"
 | where UrlCount > 0 or AttachmentCount > 0
 | where SenderFromDomain endswith ".jp" and EmailLanguage != "ja"
-| where SenderDisplayName matches regex "(?i)hr|unit|admin|manage|office|help|desk|via|ergomed|primevigilance|support|share|team|acc|secur|service|sign|doc|online|mail|record|behalf|return|pass|pay|internal|portal|auth|automate|point|file|link|\\.com"
+| where SenderDisplayName matches regex "(?i)hr|unit|admin|manage|office|help|desk|via|support|share|team|acc|secur|service|sign|doc|online|mail|record|behalf|return|pass|pay|internal|portal|auth|automate|point|file|link|\\.com"
 ```
 
 ### MITRE ATT&CK Mapping
